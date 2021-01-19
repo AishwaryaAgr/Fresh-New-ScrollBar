@@ -1,0 +1,28 @@
+/** @format */
+
+.scrollBar {
+	background: #49505a;
+	position: fixed;
+	right: 0px;
+	width: 1%;
+	min-width: 10px;
+	max-width: 16px;
+	top: 0;
+	height: 100%;
+	z-index: 1;
+	border-radius: 10px;
+}
+.slider {
+	position: absolute;
+	background: orange;
+	width: 100%;
+	border-radius: 10px;
+	left: 0px;
+	height: 100px;
+}
+html {
+	scrollbar-width: none;
+}
+::-webkit-scrollbar {
+	display: none;
+}
